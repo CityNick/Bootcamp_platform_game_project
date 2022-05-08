@@ -30,7 +30,10 @@
       <p> Hello everyone, I'm a filipino student at City, studying Computer Science with Cyber Security MSCi.
           In terms of programming I have a moderate amount of experience with it, in particular
           when it comes to games, as it was part of my coursework for A levels in which we made a game
-          with python. A few of my personal interests are simply coding, gaming, and most of all food ( ͡° ͜ʖ ͡°). </p> 
+          with python. A few of my personal interests are simply coding, gaming, and most of all food ( ͡° ͜ʖ ͡°)</p> 
+    </td>
+    <td>
+	<img src="images/me.jpg" width=300px></img>
     </td>
   </tr>
   <tr>
@@ -55,17 +58,19 @@
     </p>
 
     <p>
-      Check out the code on Github: <a href="https://github.com/CityNick/Bootcamp_platform_game_project">Click here to see the project</a>
+      Check out the code on Github: <a href="https://github.com/LiteralPotatoDeveloper/BitcoinBubbles">https://github.com/LiteralPotatoDeveloper/BitcoinBubbles</a>
     </p>
   <td>
-	<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/44a4e639-0229-43f9-b5d5-479b39a8a432?        autoplay=false&showinfo=true" allowfullscreen style="border:none;"></iframe>
+	<video width="429" height="200" controls>
+	<source src="Projects\Previews\BitcoinBubbles\previewvid.mkv" type="video/mp4">
+	</video>
   </td>
- 
+ </td>
  <tr>
  <td colspan = 2 align=center>
-	<img src="images/run.png" width="285px">
-	<img src="images/code1.png" width="265px">
-	<img src="images/code2.png" width="255px">
+	<img src="images/code1.png" width="285px">
+	<img src="images/code2.png" width="265px">
+	<img src="images/code3.png" width="255px">
  </td>
 </tr>
  </tr>
@@ -76,28 +81,37 @@
  </tr>
  <tr>
   <td class="infotd">
-    <td class="infotd">
     <h3>Programming With Java: City Game Coursework</h3>
     <p>
+
 	For my Java coursework I was tasked with creating a game utilising city-engine, a physics engine designed
         by City, University of London. The concept I went for was a simple platformer game in which the player would need
         need to carefully navigate around each level, and avoid numerous bodies such as enemies and spikes and even false
-        hearts.
-    </p>
-      
-    <p>
-	Programming with Java was definitely a challenge for me as I normally use Unity which utlises C# as opposed to Java. I had issues
-        with making sure the view had focus, and quite a few errors when it came to collision as I needed the collision detectors to differentiate between the two bodies. It was however helpful to learn about how to save and load games by utilising a txt file and a writer to write data to that txt file. It's definitely something I want to implement in future games.
-    </p>
-
-    <p>
-      Check out the code on Github: <a href="https://github.com/CityNick/CityGame-adck928">Click here to see the project</a>
+        hearts.<br>
+	In this project I had to utilise a variety of techniques including encapsulation, object-orientated programming, inheritance, arrays
+        and even the sound and images for visual media.<br>
+	
+	In my game, all bodies which similar methods and attributes are simply designed to inherit from a superclass e.g: Wolf inherits from the super
+        superclass Enemy. In doing so I could not only save time on reqriting code but I could also have my collision detectors search for
+        instances of the Enemy class instead of have to write different selection statements for Wolf, Golem, Demon etc<br>
+	
+	One issue I had was ensuring all the bodies would move at once. For this idea I came up with the solution of storing all similar bodies into an array
+        e.g: platforms are stored in platformArray. This meant that in an enclosed loop I could simply have the code run through each index of the array
+        and update them accordingly rather than having to write a new update statement for each object.<br>
+	
+	Another particular issue was the idea the concept of focus. I explain more in the video, but during my time developing I ran into issues where my character
+        would not move even though the controls were set correctly and the thing that fixed it was setting the focus on the view.<br>
+	
+	OVerall I have found this project to have been not only quite educating, as I learned a range of new techniques - particularly collision detection, encapsulation and inheritance as
+        well as how to save and load a game through the use of a writer / reader into a txt file.<br>
+	
+	Future Improvements I could make would be to include more dynamic Bodies that behave differently and more variations of the platforms and collectibles.<br>
     </p>
 	
   <td>
-	<video width="429" height="200" controls>
-	<source src="Projects\Previews\AbyssalTower\previewvid.mp4" type="video/mp4">
-	</video>
+	<td>
+	<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/4f05de86-7c4f-48f8-8664-b97f220276f9?autoplay=false&showinfo=true" allowfullscreen style="border:none;"></iframe>
+  <td>
   </td>
  </td>
  <tr>
